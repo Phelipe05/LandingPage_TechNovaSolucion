@@ -1,0 +1,121 @@
+body{
+    background-color: #01081c;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+#HOME{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#logo{
+    width: 500px;
+}
+
+#imagem_logo{
+    display: flex;
+    justify-content: right;
+    margin-left: 250px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+.titulo{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+}
+
+#solutions_titulo{
+    color: #12e19f;
+}
+
+.texto_principal{
+    width: 300px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.texto_formulario{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+.area_email{
+    width: 350px;
+    height: 30px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #B3B3B3;
+}
+
+.botao_cadastrar{
+    width: 125px;
+    height: 35px;
+    background-color:#01081c ;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 1px solid;
+    border-color: antiquewhite;
+    margin-left: 100px;
+}
+
+.botao_cadastrar:hover{
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+#contato{
+    display: inline-flex;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.imagens_rodape{
+    width: 100px;
+}
+
+.texto_rodape{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
